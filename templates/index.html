@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>black_friday</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="static/styles.min.css">
+</head>
+
+<body>
+    <!-- <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid">
+            <img src="static/img/hackershrine-01.png" >
+            <a class="navbar-brand" href="#" style="color: green">HackerShrine</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1"></div>
+        </div>
+    </nav> -->
+
+  <nav class="navbar navbar-light navbar-expand-md navigation-clean-button"> 
+            <div class="container">
+                <img class="img-responsive" src="static/img/hackershrine-01.png" style="width: 100px;height: 50px">
+                <a class="navbar-brand" href="#" style="padding-left:10px">Hackershrine</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav mr-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="color: white"> About</a></li>
+                        <!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
+                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">ThirdItem
+                            </a></div>
+                        </li>
+                      -->
+
+                    </ul>
+                    <span class="navbar-text actions"> <a href="#" class="login">Aniket Wattamwar</a>
+                    <a class="btn btn-light action-button" role="button" href="teacherLogin.html" style="background-color:#1e2833;color:#ffffff;">Github</a></span>
+                    </div>
+            </div>
+        </nav>
+
+
+
+    <div class="article-dual-column">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="intro">
+                        <h1 class="text-center">Black Friday Sales Prediction</h1>
+                        <p class="text-center"> <a href="#">Analytics Vidhya</a>
+                        <span class="date"></span></p>
+                        <img class="img-fluid" src="static/BlackFriday.png"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-lg-3 offset-md-1">
+                    <div class="toc">
+                        <p style="font-size:18px;">Prediction</p>
+                        <ul></ul>
+                </div>
+                <form action="/regressor", method="post">
+                     
+                    <button class="btn btn-dark" name="reg" type="submit" value="reg">Regression</button> 
+                    <br>
+                    
+                    <button class="btn btn-dark" name="DT" type="submit" value="DT"  style="margin-top:10px;">Decision Tree&nbsp;</button> 
+                    <br>
+                     
+                    <button class="btn btn-dark" name="Rf" type="submit" style="margin-top:10px;" >Random Forest&nbsp;</button> 
+                     <br>
+                    <button class="btn btn-dark" name="Ada" type="submit" style="margin-top:10px;" >AdaBoost</button> 
+                                        
+                    <button class="btn btn-dark" name="Gb" type="submit" style="margin-top:10px;" >Gradient Boosting</button> 
+                        
+                     
+                </form>
+                    
+                   <!--  <button class="btn btn-dark" type="button" style="margin-top:10px;">Decision Tree&nbsp;</button>
+                    <button class="btn btn-dark" type="button" style="padding-top:6px;margin-top:10px;">Random Forest</button> -->
+                </div>
+                {{name_}}
+
+
+                <div
+                    class="col-md-10 col-lg-7 offset-md-1 offset-lg-0">
+                    <div class="text">
+                        <h4>Problem Statement</h4>
+                        <p><br>A retail company “ABC Private Limited” wants to understand the customer purchase behaviour (specifically, purchase amount) against various products of different categories. They have shared purchase summary of various customers
+                            for selected high volume products from last month.<br>The data set also contains customer demographics (age, gender, marital status, city_type, stay_in_current_city), product details (product_id and product category) and Total
+                            purchase_amount from last month.<br><br>Now, they want to build a model to predict the purchase amount of customer against various products which will help them to create personalized offer for customers against different products.<br>
+                            <a
+                                class="btn btn-primary" role="button" href="https://datahack.analyticsvidhya.com/contest/black-friday/#ProblemStatement" style="margin-top:10px;">Details/Download dataset</a><button class="btn btn-dark" type="button" style="padding-top:6px;margin-top:10px;margin-left:10px;">Github</button><br></p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
