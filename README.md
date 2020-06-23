@@ -1,6 +1,9 @@
 # Black-Friday-Sales-Prediction-Web-App
 A web app containing 5 models that predict the sales on black friday dataset. This is a practice problem on Analytics Vidhya.
 
+NOTE: I couldnt upload the decision tree model(.sav) file since it 68mb.
+Here is the link to the website:
+https://blackfriday-sales.herokuapp.com/
 
 When you click on any of the 5 models on the  webapp, it is going to download a csv file for that model.
 
